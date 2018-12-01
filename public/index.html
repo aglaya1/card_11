@@ -9,7 +9,30 @@
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+    <style>
+      .demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+  }
+  .mdl-card__title-text{
+    style: Allefia Script;
+  }
+  .demo-card-square > .mdl-card__title {
+    background:
+      url("https://www.google.com/search?q=random+image&client=firefox-b-ab&tbm=isch&source=iu&ictx=1&fir=ashA-nYuhh7bAM%253A%252CBYAum-aOzwcDkM%252C_&usg=AI4_-kQZ86yLSNnUZA87dqr1rrA4RDXCnw&sa=X&ved=2ahUKEwjjkMWV3_7eAhUHy6QKHR2tDO0Q9QEwA3oECAQQCg&biw=1366&bih=654#imgrc=ashA-nYuhh7bAM") bottom right 15% no-repeat #46B6AC;
+  }
+
+  body {
+    padding: 20px;
+    position: relative;
+  }</style>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -22,9 +45,6 @@
     <title>React App</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
