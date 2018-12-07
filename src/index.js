@@ -4,15 +4,12 @@ import './index.css';
 //import './card.html';
 import App from './App';
 import Card from './Card';
+import Nim from './Nim';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
-    <Card test="!234">
-    </Card>
-
-    <Card>
-    </Card>
+    <Nim count = "100"></Nim>
   </div>
   , document.getElementById('root'));
 
