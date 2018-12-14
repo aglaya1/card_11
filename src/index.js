@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
-    <Nim count = "100"></Nim>
+    <Nim></Nim>
   </div>
   , document.getElementById('root'));
 
